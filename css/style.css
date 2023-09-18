@@ -1,0 +1,118 @@
+/********** Base styles **********/
+*{
+    box-sizing: border-box;
+}
+h1 {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  p{
+    border: 1px solid black;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    position: relative;
+    padding: 6px;
+    text-align: left;
+}
+div{
+  float: left;
+  text-align: right;
+  position: relative;
+  margin:10px 10px 20px 20px;
+  border: black solid;
+}
+  #d1 {
+    background-color: rgb(155, 154, 154);
+    width: 300px;
+    height: 300px;
+    color:black;
+  }
+  #d2 {
+    background-color:  rgb(155, 154, 154);
+    width: 300px;
+    height: 300px;
+    color:black;
+    float: center;
+  }
+  #d3 {
+    background-color:  rgb(155, 154, 154);
+    width: 300px;
+    height: 300px;
+    color:black;
+
+  }
+  #first{
+    background-color: rgb(253, 166, 253);
+    color: black;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  #second{
+    background-color: rgb(241, 38, 65);
+    color: white;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  #third{
+    background-color: rgb(253, 230, 100);
+    color: black;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .text{
+    border:0;
+    float:left;
+    padding-top: 5px;
+    padding-left: 10px;
+    text-align: left;
+    
+  }
+    /*Small devices*/
+    @media (min-width: 767px) and (max-width: 991px) {
+      #d1 {
+        width: 80%;
+      }
+      #d2 {
+        width: 80%;
+        
+      }
+      #d3{
+          width: 80%;
+      }
+    div{
+      margin-left:10%;
+    }
+    }
+  /********** Medium devices only **********/
+  @media (min-width: 992px) and (max-width: 1199px) {
+    #d1 {
+      width: 40%;
+    }
+    #d2 {
+      width: 40%;
+      
+    }
+    #d3{
+        width: 82.5%;
+    }
+  }
+  /********** Large devices only **********/
+  @media (min-width: 1200px){
+    #d1 {
+      width: 30%;
+    }
+    #d2 {
+      width: 30%;
+    
+    }
+    #d3{
+      width:30%;
+    }
+  } 
